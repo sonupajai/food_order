@@ -16,7 +16,7 @@ class CitiesController < ApplicationController
   def new
     @city = City.new
 
-    render "/shared/cities_partial.erb.html"
+    #render "/shared/cities_partial.erb.html"
   end
 
   # GET /cities/1/edit
